@@ -12,5 +12,5 @@ function isPalindrome(x: number) {
       reversed = reversed * 10 + x % 10;
       x = Math.floor(x / 10);
   }
-  return reversed === x || x == Math.floor(reversed / 10)
+  return x === reversed|| x === Math.floor(reversed / 10)
 }
