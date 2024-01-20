@@ -16,5 +16,6 @@ function twoSum(nums: number[], target: number): number[] | undefined {
   }
 };
 
-const output = twoSum([3,2,4],6)
-console.log(output)
+// const output = twoSum([3,2,4],6)
+// console.log(output)
+// npx ts-node 1_two-sum.ts 

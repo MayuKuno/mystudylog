@@ -14,3 +14,7 @@ function isPalindrome(x: number) {
   }
   return x === reversed|| x === Math.floor(reversed / 10)
 }
+
+// const output = isPalindrome(3223)
+// console.log(output)
+// npx ts-node 9_isPalindrome.ts 
