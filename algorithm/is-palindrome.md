@@ -2,6 +2,7 @@
 layout: default
 title: "LeetCode Problem: 9.isPalindrome"
 ---
+[Home](../) > [Algorithm](./) > {{ page.title }}
 
 # isPalindrome
 
@@ -67,6 +68,4 @@ ___
 - Using `x % 10` to check the last digit.
 - Using `Math.floor(x / 10)` to remove the last digit.
 
-[back](/)
-
-
+[Link to Home](../)

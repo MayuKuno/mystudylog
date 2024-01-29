@@ -2,6 +2,7 @@
 layout: default
 title: "LeetCode Problem: 14.Longest Common Prefix"
 ---
+[Home](../) > [Algorithm](./) > {{ page.title }}
 
 # 13. Roman to Integer
 
@@ -80,6 +81,4 @@ ___
 - Using `slice(0, -1)`, you can remove the last character  from a string.
 
 
-[back](/)
-
-
+[Link to Home](../)

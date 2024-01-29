@@ -2,6 +2,7 @@
 layout: default
 title: "LeetCode Problem: 1.Two Sum"
 ---
+[Home](../) > [Algorithm](./) > {{ page.title }}
 
 # Two Sum
 
@@ -112,6 +113,7 @@ ___
    
       You can add or update a key-value pair in the Map using the set method. It associates the provided key with the specified value.
 
-[back](/)
+[Link to Home](../)
+
 
 

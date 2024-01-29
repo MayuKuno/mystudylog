@@ -2,6 +2,7 @@
 layout: default
 title: "LeetCode Problem: 13.Roman to Integer"
 ---
+[Home](../) > [Algorithm](./) > {{ page.title }}
 
 # 13. Roman to Integer
 
@@ -72,6 +73,4 @@ ___
 - Using `s.split('').map(c => roman[c])`, it converts a Roman numeral string s into an array of corresponding integer values by splitting the string and mapping each character to its integer value.
 - Using `reduce()`, it iteratively calculates the integer value of the Roman numeral string. It employs addition or subtraction based on Roman numeral rules by comparing adjacent integers in the array.
 
-[back](/)
-
-
+[Link to Home](../)
