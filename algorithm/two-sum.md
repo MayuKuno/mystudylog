@@ -10,6 +10,26 @@ title: "LeetCode Problem: 1.Two Sum"
 
 ## My Solution
 ### typescript
+
+#### Initial Attempt
+In my initial attempt to solve the problem, I tried with a nested loop structure. This approach, however, quickly revealed its inefficiency, primarily due to its time complexity being O(n^2). The problem's description specifically asked for an algorithm with a better time complexity than that.
+
+Here's the code for the initial approach:
+
+```typescript
+function twoSum(nums: number[], target: number): number[] {
+ for (let i = 0; i < nums.length; i++) {
+    for (let j = i + 1; j < nums.length; j++) {
+      if (nums[i] + nums[j] === target) {
+        return [i, j]
+      }
+    }
+  }
+};
+```
+This code uses two nested loops to compare every pair of numbers in the nums array to see if their sum equals the target. While this approach works, it's not efficient for larger arrays, as it has a time complexity of O(n^2), which doesn't meet the requirement for a more optimized solution.
+
+#### Final Solution
 ```typescript
 function twoSum(nums: number[], target: number): number[] {
   const map = new Map();
@@ -74,6 +94,6 @@ function twoSum(nums: number[], target: number): number[] {
    We keep repeating this process for each number in the array.
    If we go through the whole array and don't find a pair that adds up to the target, the function ends without finding an answer (though, for this specific problem, it's assumed that there is always a solution).
 
-[back](./)
+[back](/)
 
 
