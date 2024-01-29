@@ -8,6 +8,8 @@ title: "LeetCode Problem: 14.Longest Common Prefix"
 ## Problem
 [Longest Common Prefix Problem on LeetCode](https://leetcode.com/problems/longest-common-prefix/description/)
 
+___
+
 ## My Solution
 ### typescript
 
@@ -29,6 +31,7 @@ function longestCommonPrefix(strs: string[]): string {
     return prefix;
   };
 ```
+___
 
 ## Explanation
 1. **Initialize Prefix**
@@ -70,6 +73,12 @@ function longestCommonPrefix(strs: string[]): string {
    ```typescript
       return prefix;
    ```
+
+___
+## Common Techniques
+
+- Using `slice(0, -1)`, you can remove the last character  from a string.
+
 
 [back](/)
 

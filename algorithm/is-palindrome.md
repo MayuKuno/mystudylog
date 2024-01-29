@@ -8,6 +8,8 @@ title: "LeetCode Problem: 9.isPalindrome"
 ## Problem
 [isPalindrome Problem on LeetCode](https://leetcode.com/problems/palindrome-number/description/)
 
+___
+
 ## My Solution
 ### typescript
 
@@ -25,6 +27,8 @@ function isPalindrome(x: number) {
   return x === reversed|| x === Math.floor(reversed / 10)
 }
 ```
+
+___
 
 ## Explanation
 1. **Check for Negative Numbers and Numbers Ending with Zero**
@@ -57,6 +61,11 @@ function isPalindrome(x: number) {
    ```typescript
       return x === reversed|| x === Math.floor(reversed / 10)
    ```
+___
+## Common Techniques
+
+- Using `x % 10` to check the last digit.
+- Using `Math.floor(x / 10)` to remove the last digit.
 
 [back](/)
 

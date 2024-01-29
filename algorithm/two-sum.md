@@ -8,6 +8,7 @@ title: "LeetCode Problem: 1.Two Sum"
 ## Problem
 [Two Sum Problem on LeetCode](https://leetcode.com/problems/two-sum/description/)
 
+___
 ## My Solution
 ### typescript
 
@@ -43,7 +44,7 @@ function twoSum(nums: number[], target: number): number[] {
   }
 };
 ```
-
+___
 ## Explanation
 1. **Create a Map**
 
@@ -93,6 +94,23 @@ function twoSum(nums: number[], target: number): number[] {
 
    We keep repeating this process for each number in the array.
    If we go through the whole array and don't find a pair that adds up to the target, the function ends without finding an answer (though, for this specific problem, it's assumed that there is always a solution).
+
+___
+## Common Techniques
+
+- Map (`const map = new Map();`) is a data structure that allows you to store key-value pair
+
+  - `map.has(key)`
+
+      You can check if a Map contains a specific key using the has method. It returns true if the key exists in the Map, and false otherwise.
+
+  - `map.get(key)`
+   
+      You can retrieve the value associated with a specific key using the get method. It returns the value corresponding to the given key.
+
+  - `map.set(key, value)`
+   
+      You can add or update a key-value pair in the Map using the set method. It associates the provided key with the specified value.
 
 [back](/)
 
