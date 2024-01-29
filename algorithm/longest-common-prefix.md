@@ -81,4 +81,5 @@ ___
 - Using `slice(0, -1)`, you can remove the last character  from a string.
 
 
-[Link to Home](../)
+[Back to Home](../)
+

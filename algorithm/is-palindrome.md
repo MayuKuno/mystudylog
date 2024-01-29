@@ -68,4 +68,4 @@ ___
 - Using `x % 10` to check the last digit.
 - Using `Math.floor(x / 10)` to remove the last digit.
 
-[Link to Home](../)
+[Back to Home](../)
