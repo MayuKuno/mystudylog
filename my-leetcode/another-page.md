@@ -1,9 +1,10 @@
 ---
 layout: default
-title: About ME
+title: Another page
+description: This is just another page
 ---
 
-## About ME
+## Welcome to another page
 
 _yay_
 
