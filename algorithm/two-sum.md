@@ -11,7 +11,7 @@ title: "LeetCode Problem: 1.Two Sum"
 
 ___
 ## My Solution
-### typescript
+### with TypeScript
 
 #### Initial Attempt
 In my initial attempt to solve the problem, I tried with a nested loop structure. This approach, however, quickly revealed its inefficiency, primarily due to its time complexity being O(n^2). The problem's description specifically asked for an algorithm with a better time complexity than that.

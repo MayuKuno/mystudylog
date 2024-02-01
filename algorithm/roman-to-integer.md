@@ -12,7 +12,7 @@ title: "LeetCode Problem: 13.Roman to Integer"
 ___
 
 ## My Solution
-### typescript
+### with TypeScript
 
 #### Final Solution
 ```typescript

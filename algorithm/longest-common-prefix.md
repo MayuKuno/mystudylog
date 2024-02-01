@@ -12,7 +12,7 @@ title: "LeetCode Problem: 14.Longest Common Prefix"
 ___
 
 ## My Solution
-### typescript
+### with TypeScript
 
 #### Final Solution
 ```typescript

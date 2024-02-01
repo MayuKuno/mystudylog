@@ -12,7 +12,7 @@ title: "LeetCode Problem: 9.isPalindrome"
 ___
 
 ## My Solution
-### typescript
+### with TypeScript
 
 #### Final Solution
 ```typescript

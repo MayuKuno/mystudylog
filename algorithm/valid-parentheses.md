@@ -12,7 +12,7 @@ title: "LeetCode Problem: 20. Valid Parentheses"
 ___
 
 ## My Solution
-### typescript
+### with TypeScript
 
 #### Final Solution
 ```typescript
