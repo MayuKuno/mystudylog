@@ -8,5 +8,6 @@ description: A journey through the world of LeetCode challenges
 # [9. isPalindrome](./is-palindrome.html)
 # [13. Roman to Integer](./roman-to-integer.html)
 # [14. Longest Common Prefix](./longest-common-prefix.html)
+# [20. Valid Parentheses](./valid-parentheses.html)
 
 [Back to Home](../)
