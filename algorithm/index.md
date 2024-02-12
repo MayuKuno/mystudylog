@@ -9,5 +9,6 @@ description: A journey through the world of LeetCode challenges
 # [13. Roman to Integer](./roman-to-integer.html)
 # [14. Longest Common Prefix](./longest-common-prefix.html)
 # [20. Valid Parentheses](./valid-parentheses.html)
+# [21. Merge Two Sorted Lists](./merge-two-sorted-lists.html)
 
 [Back to Home](../)

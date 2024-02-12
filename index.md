@@ -18,3 +18,4 @@ Thank you for visiting! Whether you're a fellow coder, a student, or just someon
   - ### [13. Roman to Integer](./algorithm/roman-to-integer.html)
   - ### [14. Longest Common Prefix](./algorithm/longest-common-prefix.html)
   - ### [20. Valid Parentheses](./algorithm/valid-parentheses.html)
+  - ### [21. Merge Two Sorted Lists](./algorithm/merge-two-sorted-lists.html)
