@@ -20,3 +20,4 @@ Thank you for visiting! Whether you're a fellow coder, a student, or just someon
   - ### [20. Valid Parentheses](./algorithm/valid-parentheses.html)
   - ### [21. Merge Two Sorted Lists](./algorithm/merge-two-sorted-lists.html)
   - ### [26. Remove Duplicates from Sorted Array](./algorithm/remove-duplicates-from-sorted-array.html)
+  - ### [27. Remove Element](./algorithm/remove-element.html)

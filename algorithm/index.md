@@ -11,5 +11,6 @@ description: A journey through the world of LeetCode challenges
 # [20. Valid Parentheses](./valid-parentheses.html)
 # [21. Merge Two Sorted Lists](./merge-two-sorted-lists.html)
 # [26. Remove Duplicates from Sorted Array](./remove-duplicates-from-sorted-array.html)
+# [27. Remove Element](./remove-element.html)
 
 [Back to Home](../)
