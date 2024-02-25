@@ -66,16 +66,7 @@ ___
     }
    ```
 
-3. **Compare Current Element with Previous**
-
-   Inside the loop, the function compares the current element nums[i] with the previous one nums[i - 1]. This comparison is crucial for identifying duplicates.
-
-   ```typescript
-    if (nums[i] !== nums[i - 1]) {
-    }
-   ```
-
-4. **Check for Non-Matching Elements**
+3. **Check for Non-Matching Elements**
 
    Inside the loop, the function checks if the current element n does not match the value val. This step is crucial for identifying elements that should remain in the array.
 
@@ -83,7 +74,7 @@ ___
     if (n !== val) {
     }
    ```
-5. **Move Non-Matching Elements and Increment Pointer**
+4. **Move Non-Matching Elements and Increment Pointer**
 
    When an element that does not match val is found, the algorithm assigns this element to the position indicated by j in the array. This ensures that all elements not equal to val are moved to the beginning of the array. After assigning the element, j is incremented, effectively keeping track of the new length of the array and preparing the next position for any subsequent non-matching elements.
 
@@ -96,6 +87,25 @@ ___
     After the loop completes, the function returns j, the number of elements in the array that are not equal to val. This return value represents the new length of the array, with the first j elements being those that are not val. The elements beyond the jth position are not important, as specified by the problem statement.
 
 ___
+## Common Techniques
+
+- **Post-increment**
+
+  post-increment is an operation that increases the value of a variable by one after its current value has been used in an expression. When you see j++ in an expression, it means "use j, then increment it."
+
+  - `nums[j] = n;` assigns the value of n to the current position in the array indicated by j.
+  - `j++;` increments the value of j by one, preparing it for the next operation.
+  
+    ```typescript
+    nums[j++] = n;
+    ```
+
+    ↓ same as ↓
+
+    ```typescript
+    nums[j] = n 
+    j++
+    ```
 
 [Back to Home](../)
 <!-- bundle exec jekyll serve -->
