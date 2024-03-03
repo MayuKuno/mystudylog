@@ -12,5 +12,5 @@ description: A journey through the world of LeetCode challenges
 # [21. Merge Two Sorted Lists](./merge-two-sorted-lists.html)
 # [26. Remove Duplicates from Sorted Array](./remove-duplicates-from-sorted-array.html)
 # [27. Remove Element](./remove-element.html)
-
+# [2８. Find the Index of the First Occurrence in a String](./find-the-index-of-the-first-occurrence-in-a-string.html)
 [Back to Home](../)
